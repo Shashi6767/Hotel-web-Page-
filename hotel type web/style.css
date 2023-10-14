@@ -1,0 +1,236 @@
+ .navbar-nav .nav-link {
+     text-decoration: none;
+     position: relative;
+ }
+
+ .navbar-nav .nav-link::after {
+     content: '';
+     position: absolute;
+     bottom: -2px;
+     left: 0;
+     right: 0;
+     border-bottom: 2px solid transparent;
+     transition: border-color 0.3s ease;
+
+ }
+
+ .navbar-nav .nav-link:hover::after {
+     border-color: red;
+ }
+
+ .Page,
+ .page2 {
+     width: 100%;
+     background-color: #EEEEEE;
+ }
+
+ .text-span:hover {
+     color: red;
+ }
+
+ .image-container1 {
+     position: relative;
+ }
+
+ .info-box {
+     position: absolute;
+     top: 70%;
+     left: 10%;
+     background-color: #fff;
+     padding: 20px;
+     width: 70%;
+ }
+
+ .button1:hover {
+     background-color: #fff;
+     color: red;
+ }
+
+ .background-container .icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 56px;
+     height: 56px;
+     font-size: 24px;
+     line-height: 0;
+     background-color: pink;
+     border-radius: 50px;
+     margin-right: 15px;
+     margin-left: 30%;
+ }
+
+ .icon {
+     font-size: 25px;
+ }
+
+ .effect{
+    transition: transform 0.5s;
+ }
+
+.effect:hover{
+transform: scale(1.1);
+}  
+
+ .page3 {
+     width: 100%;
+     background-image: url('img/statsbg.jpg');
+     height: auto;
+ }
+
+ .page5 {
+     width: 100%;
+     background-color: #EEEEEE;
+ }
+
+
+
+
+ .slideshow-container {
+     position: relative;
+     max-width: 100%;
+     margin: 0 auto;
+ }
+
+ .testimonial {
+     display: none;
+     animation: fade 3s ease-in-out infinite;
+
+ }
+
+ .image-container {
+     position: relative;
+     width: 100%;
+     height: 600px;
+     overflow: hidden;
+ }
+
+ .image-container::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+     z-index: 1;
+ }
+
+ .image-container img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     z-index: 2;
+ }
+
+ .text-overlay {
+     position: absolute;
+     top: 80%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+     text-align: start;
+     z-index: 2;
+     color: #fff;
+     padding: 10px;
+ }
+
+ .text-overlay h2 {
+     margin: 0;
+     font-size: 24px;
+ }
+
+ .custom-heading {
+     font-size: 24px;
+     border-bottom: 3px solid red;
+     display: inline-block;
+     padding-bottom: 5px;
+ }
+
+ .page7 {
+     width: 100%;
+     background-color: #EEEEEE;
+ }
+
+ .newcard{
+    transition: transform 0.5s;
+ }
+
+
+ .newcard:hover {
+     transform: scale(1.1);
+ }
+
+ .page9 {
+     width: 100%;
+     background-color: #eee;
+ }
+
+ .slideshow-container {
+     width: 50%;
+     overflow: hidden;
+     margin: 0 auto;
+     position: relative;
+ }
+
+ .logo-wrapper {
+     display: flex;
+     animation: scroll 50s linear infinite;
+ }
+
+ .logo {
+     width: 400px;
+     height: 300px;
+     margin-right: 20px;
+     cursor: pointer;
+ }
+
+ @keyframes scroll {
+
+     0%,
+     100% {
+         transform: translateX(0);
+     }
+
+     25%,
+     75% {
+         transform: translateX(-100%);
+     }
+
+     50% {
+         transform: translateX(-200%);
+     }
+ }
+
+
+
+ .page10 {
+     width: 100%;
+     background-color: #fff;
+ }
+
+ .info-item .icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 56px;
+     height: 56px;
+     font-size: 24px;
+     line-height: 0;
+     color: #fff;
+     background-color: red;
+     border-radius: 50px;
+     margin-right: 15px;
+ }
+
+ .page11 {
+     width: 100%;
+     background-color: #1f1f24;
+ }
+
+
+ /* This is for video link */
+
+ .hidden {
+     display: none;
+ }
